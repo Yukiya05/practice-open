@@ -205,7 +205,7 @@
     background-attachment: fixed;
 }
 */
-#sample:before{
+.common-inner-main:before{
   content:"";
   display:block;
   position:fixed;
