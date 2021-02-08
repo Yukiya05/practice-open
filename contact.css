@@ -36,6 +36,7 @@
 @media screen and (max-wifth: 768px) {
     #section-contact {
         margin-top: 40px;
+        width: 100%;
     }
 }
 
