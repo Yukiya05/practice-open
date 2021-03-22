@@ -1,0 +1,210 @@
+
+/*共通部分*/
+.section {
+    padding: 70px 0;
+}
+
+/*タイトルのところ*/
+#section-intro {
+    background-color: #8d0000;
+}
+
+.section__title1 {
+    margin-bottom: 50px;
+    font-size: 2.4rem;
+    line-height: 1.0;
+    text-align: center;
+    color: white;
+}
+
+
+.section__text {
+    text-align: center;
+    color: white;
+    line-height: 1.8;
+}
+
+/*お問い合わせのところ*/
+/*
+#section-contact {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+    width: 100%;
+}
+
+@media screen and (max-wifth: 768px) {
+    #section-contact {
+        margin-top: 40px;
+        width: 100%;
+    }
+}
+
+.form {
+    border-top: 1px solid #ddd;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .form {
+      margin: 20px auto;
+      padding: 16px 0;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+}
+
+.font-label {
+    width: 100%;
+    max-width: 248px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .form-label {
+      max-width: inherit;
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+    }
+}
+
+.font-label-required {
+    border-radius: 6px;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 48px;
+    display: inline-block;
+    text-align: center;
+    background: #8d0000;
+    color: #fff;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .font-label-required {
+      border-radius: 4px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      width: 32px;
+      font-size: 10px;
+    }
+}
+
+.form-input {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 48px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .form-input {
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 18px;
+      height: 40px;
+      flex: inherit;
+      font-size: 15px;
+    }
+}
+
+.form-textarea {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 216px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .form-textarea {
+      margin-top: 18px;
+      margin-left: 10px;
+      margin-right: 10px;
+      height: 200px;
+      flex: inherit;
+      font-size: 15px;
+    }
+}
+
+.form-btn {
+    border-radius: 6px;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 280px;
+    display: block;
+    letter-spacing: 0.05em;
+    background: #8d0000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .form-btn {
+      margin-top: 24px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      width: 160px;
+      font-size: 16px;
+    }
+}
+
+.form-btn:hover {
+    opacity: 0.5;
+}
+*/
+
+
+/*googleのやつ*/
+#section-contact {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+    width: 100%;
+}
+
+@media screen and (max-wifth: 768px) {
+    #section-contact {
+        margin-top: 40px;
+        width: 100%;
+    }
+}
+
+/*フッター*/
+.page-footer {
+    padding: 25px 0;
+    background-color: #8d0000;
+}
+
+.page-footer__copyrigth {
+    text-align: center;
+    color: white;
+}

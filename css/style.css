@@ -1,0 +1,294 @@
+
+
+/*共通部分*/
+.section {
+    padding: 70px 0;
+}
+
+.common-inner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section__title {
+    margin-bottom: 50px;
+    font-size: 2.4rem;
+    line-height: 1.0;
+    text-align: center;
+}
+
+/*メディクリ*/
+
+
+
+
+/*ヘッダー*/
+.page-header {
+    background-color: #8d0000;
+}
+
+
+/*プログラミンプロジェクトのやつ*/
+#section-intro {
+    background-color: #8d0000;
+}
+
+.section__title1 {
+    margin-bottom: 50px;
+    font-size: 2.4rem;
+    line-height: 1.0;
+    text-align: center;
+    color: white;
+}
+
+
+.section__text {
+    text-align: center;
+    color: white;
+    line-height: 1.8;
+    margin: 0 25px;
+}
+
+
+
+/*Imagine Cupのところ*/
+.section__text_p {
+    color: aqua;
+    text-decoration: none;
+}
+
+.section__text_p :hover {
+    text-decoration: underline;
+}
+
+/*アイコン*/
+.section-icon {
+    margin: 40px auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.maruButton {
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 25px;
+    background: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgb(0, 0, 0);
+    background: #f5f5f5;
+    text-align: right;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.maruButton:hover {
+    background: #666;
+    color: white;
+    text-decoration: none;
+}
+
+/*参加募集*/
+.non-section {
+    padding: 20px 0;
+}
+
+#section-boshu {
+    width: 100%;
+    background-color: #8d0000;
+}
+
+.section_title_boshu_p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    line-height: 1.0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.section_title_boshu {
+    font-size: 2.4rem;
+    line-height: 1.0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.boshu {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sankaButton {
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 25px;
+    background: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgb(0, 0, 0);
+    background: #f5f5f5;
+    cursor: pointer;
+    margin: 5px;
+    margin: 0 auto;
+}
+
+.sankaButton:hover {
+    background: #666;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*最新情報*/
+#section-info {
+    width: 100%;
+    background-color:#ffffff;
+}
+
+.section__title2 {
+    margin-bottom: 50px;
+    font-size: 2.4rem;
+    line-height: 1.0;
+    text-align: center;
+}
+
+.news-list {
+    width: auto;
+    list-style: none;
+}
+
+.news-list:not(:last-child) {
+    margin: 0 auto 50px;
+}
+
+.news-list__item a {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: black;
+    text-decoration: none;
+}
+
+.news-list__item a:hover {
+    text-decoration: underline;
+}
+
+.news-list__item a span {
+    width: 400px;
+}
+
+.news-page-link {
+    text-align: center;
+}
+
+.news-page-link a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: brown;
+}
+
+.news-page-link a:hover {
+    text-decoration: underline;
+}
+
+
+/*フッター*/
+.page-footer {
+    padding: 25px 0;
+    background-color: #8d0000;
+}
+
+.page-footer__copyrigth {
+    text-align: center;
+    color: white;
+}
+
+/*メインコンテンツ*/
+/*
+#sample {
+    background: url(../img/section-main__back.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+*/
+
+.common-inner-main:before{
+    content:"";
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height:100vh;
+    background:url(../img/section-main__back.jpg) center no-repeat;
+    background-size:cover;
+}
+ 
+
+.common-inner-main {
+    width: auto;
+    height: auto;
+    margin:  50px 100px;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+
+.common-inner__content {
+    display: flex;
+    background-color: #fffff3;
+}
+
+.common-inner__img {
+    width: 50%;
+}
+
+.common-inner__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.common-inner__wrapper {
+    width: 50%;
+    padding: 5% 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.common-inner__title {
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+    line-height: 1.8;
+}
+
+.common-inner__text {
+    font-size: 1.0rem;
+    line-height: 1.5;
+    display: none;
+}
+
+.common-inner__item {
+    list-style: none;
+    padding-top: 90px;
+
+}
+
+.common-inner__item a {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: rgb(16, 97, 129);
+    text-decoration: none;
+}
+
+.common-inner__item a:hover {
+    text-decoration: underline;
+}
